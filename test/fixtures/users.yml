@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  emp: 1
+  name: MyString
+  father_name: MyString
+  dob: 2018-07-11
+
+two:
+  emp: 1
+  name: MyString
+  father_name: MyString
+  dob: 2018-07-11

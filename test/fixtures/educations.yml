@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  college: MyString
+  place_of_college: MyString
+  cgpa: 1.5
+  secondary: MyString
+  place_of_secondary: MyString
+  percentage: 1.5
+  school: MyString
+  place_of_school: MyString
+  s_percentage: 1.5
+
+two:
+  college: MyString
+  place_of_college: MyString
+  cgpa: 1.5
+  secondary: MyString
+  place_of_secondary: MyString
+  percentage: 1.5
+  school: MyString
+  place_of_school: MyString
+  s_percentage: 1.5

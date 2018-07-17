@@ -1,0 +1,123 @@
+<h1>Fill the required details</h1>
+
+<%= form_tag("/submit", method: "get") do %>
+  <%= label_tag(:emp, "idnumber:") %>
+  <%= text_field_tag(:emp) %><br/>
+<h3>PERSONAL DETAILS</h3>  
+
+<%= label_tag(:email, "email") %>
+  <%= text_field_tag(:email) %><br/>
+  <%= label_tag(:name, "name") %>
+  <%= text_field_tag(:name) %><br/>
+  
+  <%= label_tag(:father_name, "fathername") %>
+  <%= text_field_tag(:father_name) %><br/>
+
+  <%=label_tag(:contact, "contact") %>
+  <%=number_field_tag(:contact)%><br/>
+
+  <%= label_tag(:emergency_contact, "emergency contact") %>
+  <%= number_field_tag(:emergency_contact) %><br/>
+
+  <%=label_tag(:address,"address")%>
+  <%=text_area_tag(:address)%><br/>
+
+  <%=label_tag(:dob,"dob")%>
+  <%=date_select(:dob,nil)%><br/>
+<h3>EMPLOYMENT DETAILS</h3>
+
+  <%=label_tag(:company,"name of the company")%>
+  <%=text_area_tag(:company)%><br/>
+
+  <%=label_tag(:experience,"yrs of experience")%>
+  <%=number_field_tag(:experience)%><br/>
+<h3>EDUCATIONAL DETAILS</h3>
+  <%=label_tag(:college,"name of college")%>
+  <%=text_area_tag(:college)%><br/>
+
+  <%=label_tag(:place_of_college,"place of college")%>
+  <%=text_area_tag(:place_of_college)%><br/>
+
+  <%=label_tag(:cgpa,"cgpa")%>
+  <%=number_field_tag(:cgpa)%><br/>
+
+  <%=label_tag(:secondary,"secondary education")%>
+  <%=text_area_tag(:secondary)%><br/>
+
+  <%=label_tag(:place_of_secondary,"place of secondary education")%>
+
+  <%=text_area_tag(:place_of_secondary)%><br/>
+
+  <%=label_tag(:percentage,"percentage")%>
+  <%=number_field_tag(:percentage)%><br/>
+
+  <%=label_tag(:school,"school")%>
+  <%=text_area_tag(:school)%><br/>
+
+  <%=label_tag(:place_of_school,"place_of_school")%>
+  <%=text_area_tag(:place_of_school)%><br/>
+
+<%=label_tag(:s_percentage,"percentage in school")%>
+  <%=number_field_tag(:s_percentage)%><br/>
+<h3>insurancee</h3>
+  <%=label_tag(:father_name,"father name")%>
+  <%=text_area_tag(:father_name)%><br/>
+
+  <%=label_tag(:father_dob,"father dob")%>
+  <%=date_select(:father_dob,nil)%><br/>
+
+  <%=label_tag(:mother_name,"mother name")%>
+  <%=text_area_tag(:mother_name)%><br/>
+  
+<%=label_tag(:mother_dob,"dob")%>
+  <%=date_select(:mother_dob,nil)%><br/>
+
+  <%=label_tag(:spouse_name,"spousename")%>
+  <%=text_area_tag(:spouse_name)%><br/>
+  
+
+  <%=label_tag(:spouse_dob,"spouse dob")%>
+  <%=date_select(:spouse_dob,nil)%><br/>
+
+
+  <%=label_tag(:child1_name,"child1name")%>
+  <%=text_area_tag(:child1_name)%><br/>
+  <%=label_tag(:child1_dob,"dob")%>
+  <%=date_select(:child1_dob,nil)%><br/>
+
+  <%=label_tag(:child2_name,"child2name")%>
+  <%=text_area_tag(:child2_name)%><br/>
+  <%=label_tag(:child2_dob,"dob")%>
+  <%=date_select(:child2_dob,nil)%><br/>
+  <%=label_tag(:child3_name,"child3name")%>
+  <%=text_area_tag(:child3_name)%><br/>
+  <%=label_tag(:child3_dob,"dob")%>
+  <%=date_select(:child3_dob,nil)%><br/>
+  
+
+  <h3>Finance Details</h3>
+  <%=label_tag(:bankname,"bankname")%>
+  <%=text_area_tag(:bankname)%><br/>
+
+  <%=label_tag(:account_number, "acc_num") %>
+  <%=number_field_tag(:account_number)%><br/>
+
+
+<%=label_tag(:pan, "pan") %>
+  <%=number_field_tag(:pan)%><br/>
+
+<%=label_tag(:aadhar, "aadhar") %>
+  <%=number_field_tag(:aadhar)%><br/>
+
+<%=label_tag(:ifsc, "ifsc") %>
+  <%=text_field_tag(:ifsc)%><br/>
+
+
+
+
+
+  
+  
+
+  <%= submit_tag("Submit") %>
+<% end %>

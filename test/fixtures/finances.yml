@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  bankname: MyString
+  account_number: 1
+  pan: 1
+  aadhar: 1
+  ifsc: MyString
+
+two:
+  bankname: MyString
+  account_number: 1
+  pan: 1
+  aadhar: 1
+  ifsc: MyString
